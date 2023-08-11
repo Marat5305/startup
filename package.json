@@ -6,7 +6,6 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-
     "prebuild": "rimraf dist",
     "build": "yarn build:next && yarn build:nest",
     "build:next": "next build",
@@ -29,6 +28,7 @@
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/serve-static": "^4.0.0",
+    "nest-next": "^10.1.0",
     "next": "^13.4.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

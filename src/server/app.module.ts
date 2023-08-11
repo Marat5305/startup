@@ -11,7 +11,8 @@ import { AppService } from './app.service';
   imports: [
     RenderModule.forRootAsync(
       Next({ dev: true }),
-      { viewsDir: null }),
+      { viewsDir: null },
+      ),
   ],
   controllers: [AppController],
   providers: [AppService],
